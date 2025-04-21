@@ -7,5 +7,5 @@
 3. In this flow, the name, email, and date of birth are compulsory, and later, other information can be provided.
 4. To end the chat, write 'exit' and the final information will be provided.
 
-Here is an example if a chat:
+Here is an example of a chat:
 ![image](https://github.com/user-attachments/assets/0a7c221d-da3d-4cbf-85a7-6fb4705da7ee)
