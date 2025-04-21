@@ -1,7 +1,7 @@
 # Multiply AI Coding Task
 
-**Directions to use
-**
+# Directions to use
+
 1. Changes have been made to scripts.py and chat.py, along with some flow changes. First, please provide a GEMINI_API_KEY.
 2. Run the command 'poetry run demo'.
 3. In this flow, the name, email, and date of birth are compulsory, and later, other information can be provided.
