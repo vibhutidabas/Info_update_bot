@@ -146,9 +146,9 @@ def chat_response(state: ConversationState) -> ConversationState:
     )
 
     gemini_response = llm(prompt)
-    print("Gemini response:", gemini_response)
+    # print("Gemini response:", gemini_response)
     parsed_info = parse_info(gemini_response)
-    print("Parsed info:", parsed_info)
+    # print("Parsed info:", parsed_info)
     # If no user exists yet, create one with what we have
     user = state.extracted_information.user
     if not user:
