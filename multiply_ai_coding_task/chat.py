@@ -6,8 +6,11 @@ import re
 from multiply_ai_coding_task.factfind import GoalType, NewHomeGoalInformation,  NewCarInformation, OtherGoalInformation, Goal, User
 from google import genai
 
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+
+
 def llm(prompt: str) -> str:
-    client = genai.Client(api_key='AIzaSyD60jF5VjG7I4EjxuhGdvlgBocW6r2emGo')
+    client = genai.Client(api_key=GEMINI_API_KEY)
     response = client.models.generate_content(model="gemini-2.0-flash", contents=prompt)
     return response.text
 
