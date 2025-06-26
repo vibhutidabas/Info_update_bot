@@ -1,5 +1,3 @@
-# Multiply AI Coding Task
-
 # Directions to use
 
 1. Changes have been made to scripts.py and chat.py, along with some flow changes. First, please provide a GEMINI_API_KEY.
