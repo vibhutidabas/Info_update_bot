@@ -1,4 +1,5 @@
 # Directions to use
+The project takes the current state of a conversation between a user and an AI agent and return an updated conversation, with new messages from the AI and any updated information extracted from the conversation about the user.
 
 1. Changes have been made to scripts.py and chat.py, along with some flow changes. First, please provide a GEMINI_API_KEY.
 2. Run the command 'poetry run demo'.
