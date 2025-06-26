@@ -1,4 +1,4 @@
-from multiply_ai_coding_task.chat import (
+from update_bot.chat import (
     ConversationState,
     Message,
     Sender,
