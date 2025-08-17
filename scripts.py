@@ -21,7 +21,7 @@ def demo():
         state = chat_response(state)
 
         for message in state.new_messages:
-            print(f"Gemi: {message.text}")
+            print(f"Gemini: {message.text}")
             state.messages.append(message)
 
     print("\n--Ending conversation--")
